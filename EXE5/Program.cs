@@ -12,4 +12,13 @@ namespace EXE5
         public string name;
         public Node next;
     }
+    class queue
+    {
+        Node Renita, Widiastuti;
+        public queue()
+        {
+            Renita = null;
+            Widiastuti = null;
+        }
+    }
 }
