@@ -20,5 +20,20 @@ namespace EXE5
             Renita = null;
             Widiastuti = null;
         }
+        public void insert()
+        {
+            string k2;
+            Node newnode = new Node();
+            Console.WriteLine("Masukan Element: ");
+            k2 = Console.ReadLine();
+            newnode.name = k2;
+            newnode.next = null;
+            if (Renita == null)
+            {
+                Renita = newnode;
+                Widiastuti = newnode;
+                return;
+            }
+        }
     }
 }
