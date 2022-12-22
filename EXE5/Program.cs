@@ -83,8 +83,16 @@ namespace EXE5
                         case '1':
                             q.insert();
                                 break;
+                        case '2': 
+                            q.delete();
+                            break;
                         
+
                     }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("Check for the values entered");
                 }
             }
         }
