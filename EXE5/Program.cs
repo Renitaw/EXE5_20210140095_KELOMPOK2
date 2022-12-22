@@ -89,6 +89,8 @@ namespace EXE5
                         case '3':
                             q.display();
                              break;
+                        case '4':
+                            return;
                         
 
                     }
