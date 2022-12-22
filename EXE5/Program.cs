@@ -34,6 +34,8 @@ namespace EXE5
                 Widiastuti = newnode;
                 return;
             }
+            Renita = newnode;
+            Widiastuti = newnode;
         }
     }
 }
