@@ -48,5 +48,17 @@ namespace EXE5
             if (Renita == null)
                 Widiastuti = null;
         }
+        public void display()
+        {
+            if (Renita == null)
+            {
+                Console.WriteLine("Queue is Empty or Filled !!!");
+                return ;
+            }
+            Node display;
+            for (display = Renita; display != null; display = display.next)
+                 Console.WriteLine(display.name);
+        }
+       
     }
 }
