@@ -37,5 +37,16 @@ namespace EXE5
             Renita = newnode;
             Widiastuti = newnode;
         }
+        public void delete()
+        {
+            if (Renita == null)
+            {
+                Console.WriteLine("Queue is Empty!!!");
+                return;
+            }
+            Renita = Renita.next;
+            if (Renita == null)
+                Widiastuti = null;
+        }
     }
 }
