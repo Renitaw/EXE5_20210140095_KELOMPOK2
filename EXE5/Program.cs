@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 
 namespace EXE5
 {
-    internal class Program
+    class Node 
     {
-        static void Main(string[] args)
-        {
-        }
+        public string name;
+        public Node next;
     }
 }
